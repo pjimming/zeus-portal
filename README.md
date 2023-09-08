@@ -191,34 +191,3 @@ Vue Naive Admin
 |-- unocss.config.js                    // unocss配置
 |-- vite.config.js                      // vite配置
 ```
-
-### TS 版本: Qs Admin
-
-#### 源码
-
-- github: [https://github.com/zclzone/qs-admin](https://github.com/zclzone/qs-admin)
-- gitee: [https://gitee.com/zclzone/qs-admin-ts](https://gitee.com/zclzone/qs-admin-ts)
-
-#### 预览
-
-- [https://admin.qszone.com](https://admin.qszone.com)
-- [https://zclzone.github.io/qs-admin](https://zclzone.github.io/qs-admin)
-
-### 使用该项目的开源项目
-
-- [gin-vue-blog](https://github.com/szluyu99/gin-vue-blog): Golang 全栈博客项目, 博客后台的前端基于 vue-naive-admin，对接真实后端服务，实现了后端控制路由等特性。
-
-### 入群交流 & 关于作者
-
-<a href="https://blog.qszone.com/about/">
-  <img src="https://assets.qszone.com/images/about.png" style="max-width: 400px" />
-</a>
-
-### ☕ 赞助我
-
-> 开源不易，请作者喝杯咖啡吧
-
-<p>
-  <img src="https://assets.qszone.com/images/zhifu_weixin.jpg" style="width: 220px" />
-  <img src="https://assets.qszone.com/images/zhifu_zhifubao.jpg" style="width: 220px" />
-</p>
