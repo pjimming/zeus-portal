@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/zclzone/vue-naive-admin">
-    <img alt="Vue Naive Admin Logo" width="200" src="./src/assets/images/logo.png">
+    <img alt="Vue Naive Admin Logo" width="200" src="./src/assets/images/logo.svg">
   </a>
 </p>
 <p align="center">
@@ -28,7 +28,7 @@
 - 🍉 集成 `mock` 接口服务，dev 环境和发布环境都支持，可动态配置是否启用 mock 服务，不启用时不会加载 mock 包，减少打包体积
 - 🍍 集成 `pinia`，vuex 的替代方案，轻量、简单、易用
 - 📦 集成 `unplugin` 插件，自动导入，解放双手，开发效率直接起飞
-- 🤹 集成 `iconify` 图标，支持自定义 svg 图标, 优雅使用icon
+- 🤹 集成 `iconify` 图标，支持自定义 svg 图标, 优雅使用 icon
 - 🍇 集成 `unocss`，antfu 开源的原子 css 解决方案，非常轻量
 
 ### 预览
@@ -43,13 +43,13 @@
 
 项目文档: [Vue Naive Admin Docs](https://zclzone.github.io/vue-naive-admin-docs)
 
-从0到1搭建后台: [从0到1，带你搭建Vite+Vue3+Pinia+Naive UI后台](https://juejin.cn/column/7093180796424421384)
+从 0 到 1 搭建后台: [从 0 到 1，带你搭建 Vite+Vue3+Pinia+Naive UI 后台](https://juejin.cn/column/7093180796424421384)
 
-如何安装pnpm: [安装pnpm](docs/安装pnpm.md)
+如何安装 pnpm: [安装 pnpm](docs/安装pnpm.md)
 
 如何使用图标: [使用图标](docs/使用图标.md)
 
-如何使用unocss: [保熟的UnoCSS使用指北，优雅使用antfu大佬的原子化CSS](https://juejin.cn/post/7142466784971456548)
+如何使用 unocss: [保熟的 UnoCSS 使用指北，优雅使用 antfu 大佬的原子化 CSS](https://juejin.cn/post/7142466784971456548)
 
 ### 快速开始
 
@@ -101,7 +101,6 @@ pnpm preview
 pnpm cz
 ```
 
-
 ### 目录说明
 
 ```
@@ -114,10 +113,10 @@ Vue Naive Admin
 |-- build                               // 构建相关配置
 |   |-- constant.js                     // 构建相关的常量
 |   |-- utils.js                        // 构建相关的工具方法
-|   |-- config                          
+|   |-- config
 |   |   |-- define.js                   // 注入全局常量，启动或打包后将添加到window中
 |   |   |-- proxy.js                    // 代理配置
-|   |-- plugin                          
+|   |-- plugin
 |   |   |-- html.js                     // vite-plugin-html插件，用于注入变量或者html标签
 |   |   |-- mock.js                     // vite-plugin-mock插件，处理mock
 |   |   |-- unplugin.js                 // unplugin相关插件，包含DefineOptions和自动导入
@@ -167,7 +166,7 @@ Vue Naive Admin
 |   |   |-- demo                        // 示例
 |   |   |-- error-page                  // 错误页
 |   |   |-- login                       // 登录页
-|   |   |-- workbench                   // 首页  
+|   |   |-- workbench                   // 首页
 |   |-- App.vue
 |   |-- main.js
 |-- .cz-config.js                       // git提交配置
@@ -181,7 +180,7 @@ Vue Naive Admin
 |-- .gitignore                          // git忽略
 |-- .prettierignore                     // prettier格式化忽略
 |-- commitlint.config.js                // commitlint规范配置
-|-- index.html                          
+|-- index.html
 |-- jsconfig.json                       // js配置
 |-- LICENSE                             // 协议
 |-- package.json                        // 依赖描述文件
@@ -209,7 +208,6 @@ Vue Naive Admin
 
 - [gin-vue-blog](https://github.com/szluyu99/gin-vue-blog): Golang 全栈博客项目, 博客后台的前端基于 vue-naive-admin，对接真实后端服务，实现了后端控制路由等特性。
 
-
 ### 入群交流 & 关于作者
 
 <a href="https://blog.qszone.com/about/">
@@ -219,6 +217,7 @@ Vue Naive Admin
 ### ☕ 赞助我
 
 > 开源不易，请作者喝杯咖啡吧
+
 <p>
   <img src="https://assets.qszone.com/images/zhifu_weixin.jpg" style="width: 220px" />
   <img src="https://assets.qszone.com/images/zhifu_zhifubao.jpg" style="width: 220px" />

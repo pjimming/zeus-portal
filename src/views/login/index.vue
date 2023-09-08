@@ -11,7 +11,7 @@
 
       <div w-320 flex-col px-20 py-35>
         <h5 f-c-c text-24 font-normal color="#6a6a6a">
-          <img src="@/assets/images/logo.png" height="50" class="mr-10" />
+          <img src="@/assets/images/logo.svg" height="50" class="mr-10" />
           {{ title }}
         </h5>
         <div mt-30>
@@ -19,7 +19,7 @@
             v-model:value="loginInfo.name"
             autofocus
             class="h-50 items-center pl-10 text-16"
-            placeholder="admin"
+            placeholder="用户名"
             :maxlength="20"
           />
         </div>
@@ -29,7 +29,7 @@
             class="h-50 items-center pl-10 text-16"
             type="password"
             show-password-on="mousedown"
-            placeholder="123456"
+            placeholder="密码"
             :maxlength="20"
             @keypress.enter="handleLogin"
           />
